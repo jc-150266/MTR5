@@ -84,8 +84,8 @@
 
                 <Label x:Name="RM"
                        Text="　　   "
-                       WidthRequest="200"
-                       FontSize="Default"
+                       WidthRequest="300"
+                       FontSize="100"
                        TextColor="Orange"
                        />
 
