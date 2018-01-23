@@ -17,19 +17,37 @@ namespace MuscleTrainingRecords00
         public GraphPage()
         {
             InitializeComponent();
-            
+
+            /* var b = new Label
+            {
+                Text = "Date:" + DateTime.Today.ToString("dd'/'MM'/'yyyy"),
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+            };
+            Content = new StackLayout
+            {
+
+                Children = {
+           new StackLayout
+        {
+            Padding = new Thickness(25,90,25,0),
+            Spacing = 20,
+            Children = { b
+    }
+}
+    }
+            }; */
+
         }
-        //DateTime yyyymmdd;//追加
 
-            
 
-        
-            
-        
 
-        /********************ここから追加******************************************/
 
-        void Handle_Clicked(object sender, System.EventArgs e)
+
+
+
+/********************ここから追加******************************************/
+
+void Handle_Clicked(object sender, System.EventArgs e)
         {
             var db = TodoItemDatabase.getDatabase();
             //String sName = eName.Text;
@@ -54,5 +72,8 @@ namespace MuscleTrainingRecords00
 
 
         }*/
+        //DateTime yyyymmdd;//追加
+
+
     }
 }
