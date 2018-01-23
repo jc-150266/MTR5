@@ -75,6 +75,7 @@
                 <Label Text="重量"
                        FontSize="Large"/>
                  -->
+                
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"
